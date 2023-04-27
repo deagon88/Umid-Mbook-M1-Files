@@ -1,0 +1,47 @@
+EMGD Install
+
+To add the repository on ubuntu based distros, run:
+sudo add-apt-repository ppa:thopiekar/emgd
+
+or debian based you add to your sources and fetch your thopiekars key
+
+sudo nano /etc/apt/sources.lst
+	deb http://ppa.launchpad.net/thopiekar/emgd/ubuntu xenial main 
+	deb-src http://ppa.launchpad.net/thopiekar/emgd/ubuntu xenial main
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 9FFECCF3
+ 
+update package lists
+sudo apt-get update
+
+Then install the EMGD-driver by:
+sudo apt-get install emgd-driver
+
+install mesa-7.9
+sudo apt-get install libgl1-mesa-7.9-glx
+
+get libva for vid accel
+sudo apt-get install libva-1.0.16
+
+fix opengl driver symlinks
+sudo rm /usr/lib/i386-linux-gnu/dri/emgd_dri.so
+sudo rm /usr/lib/i386-linux-gnu/dri/emgd_dri.so.so
+
+ln -s /usr/lib/i386-linux-gnu/emgd-meego1.2/dri/emgd_dri.so /usr/lib/i386-linux-gnu/dri/emgd_dri.so
+
+check opengl for OpenGL renderer string: EMGD on PowerVR SGX535
+glxinfo | grep render
+
+if opengl is working install vdpau adapter
+sudo apt-get install vdpau-va-driver libvdpau-va-gl1
+
+blacklist open source drivers
+sudo nano /etc/modprobe.d/blacklist-emgd.conf
+	blacklist gma500_gfx
+	blacklist psb_gfx
+
+update your preboot image
+update-initramfs
+
+reboot & enjoy
+
