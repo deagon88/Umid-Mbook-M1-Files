@@ -1,0 +1,4 @@
+    WARNING: i (U+0069) is already defined more than once on the keyboard (on VK_I, ShiftState 'Ctl+Alt' and VK_I, ShiftState 'Base').
+    WARNING: İ (U+0130) is already defined more than once on the keyboard (on VK_OEM_7, ShiftState 'Shift' and VK_I, ShiftState 'Shift+Ctl+Alt').
+    WARNING: Caps Lock is set between 'i' and 'I' (VK_I, ShiftStates 'Base' and 'Shift').
+    WARNING: Caps Lock is set between 'ı' and 'İ' (VK_OEM_7, ShiftStates 'Base' and 'Shift').
