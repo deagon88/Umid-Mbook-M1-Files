@@ -1,4 +1,4 @@
-All of these really old linux roms should fully boot up and & support all the hardware in the umid m1 (etc) by default,
+All of these really old linux roms should fully boot up and & support all the hardware in the umid mbook m1 (etc) by default,
 including 3d acceleration (poulsbo intel emgd drivers.)
 
 moblin-2.1-final-20091103-002.img = https://mega.nz/file/61RzwDCZ#Xkl_XZgVdWhmvYf5eusVWXSmuWRvGIArEEUWomvcYVk
