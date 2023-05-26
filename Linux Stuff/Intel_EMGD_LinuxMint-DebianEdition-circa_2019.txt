@@ -3,7 +3,7 @@ EMGD Install
 To add the repository on ubuntu based distros, run:
 sudo add-apt-repository ppa:thopiekar/emgd
 
-or debian based you add to your sources and fetch your thopiekars key
+or debian based you add to your sources and fetch thopiekars package signing/gpg key
 
 sudo nano /etc/apt/sources.lst
 	deb http://ppa.launchpad.net/thopiekar/emgd/ubuntu xenial main 
