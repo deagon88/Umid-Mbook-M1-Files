@@ -1,0 +1,8 @@
+All of these really old linux roms should fully boot up and & support all the hardware in the umid m1 (etc) by default,
+including 3d acceleration (poulsbo intel emgd drivers.)
+
+moblin-2.1-final-20091103-002.img = https://mega.nz/file/61RzwDCZ#Xkl_XZgVdWhmvYf5eusVWXSmuWRvGIArEEUWomvcYVk
+
+ubuntu-9.04-mbook-m1-20091210-2318.iso = https://mega.nz/file/blZEUBRI#eVp6Ke2eoRTnBfAuBuRBRXYtkR16gTOQl489AmyoIao
+
+ubuntu-ja-9.04-mbook-m1-20091212-1932.iso (japanese) = https://mega.nz/file/u4h02TJB#wEIL9cMb-C8UjU3CEvdnQjHGOvN6Mhz06iWceQTsNbo
